@@ -4,10 +4,12 @@ import com.product.productservice.entity.Product;
 import com.product.productservice.repo.ProductRepository;
 import com.product.productservice.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ProductServiceImpl implements ProductService {
 
     @Autowired
